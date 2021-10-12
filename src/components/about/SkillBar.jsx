@@ -1,11 +1,13 @@
+import BoldText from "../util/BoldText";
+
 const SkillBar = ({language, pourcentage}) => {
     return(
-        <div>
-            <div>{language}</div>
-            <div className="w-100p h-10p bg-white">
-                <span className="w-100p h-10p bg-black80">a</span>
+        <>
+            <div className="mb-1 text-black80">{language}</div>
+            <div className="w-100p h-2 mb-2 rounded bg-black30">
+                <div className={`w-${pourcentage}p h-100p rounded bg-white`}></div>
             </div>
-        </div>
+        </>
     );
 };
 
