@@ -16,6 +16,7 @@ function App() {
       <Project/>
       <Resume/>
       <Contact/>
+      <div className="bg-black12 w-100p h-10v"></div>
     </div>
   );
 }
