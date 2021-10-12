@@ -5,7 +5,7 @@ import AboutSkill from "./AboutSkill";
 
 const About = () => {
     return (
-        <div className="flex flex-col items-center w-100p mb-4 p-10 bg-black21 text-white">
+        <div className="flex flex-col items-center w-100p p-10 bg-black21 text-white">
             <Title text="About myself." color="text-orange"/>
             <div className="text-2xl w-60p mb-10">
                 I'm getting my Bachelor's degree in Computer Science at University of Lille in France. <br/>
