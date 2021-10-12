@@ -7,6 +7,7 @@ module.exports = {
       black15: '#151515',
       black21: '#212121',
       black30: '#303030',
+      black50: '#505050',
       black80: '#808080',
       orange: '#f39c12',
       white: '#FFFFFF',

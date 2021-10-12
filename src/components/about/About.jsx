@@ -1,7 +1,21 @@
+import BoldText from "../util/BoldText";
+import Title from "../util/Title";
+import AboutInfo from "./AboutInfo";
+import AboutSkill from "./AboutSkill";
+
 const About = () => {
     return (
-        <div className="w-100p h-80v bg-black21">
-            
+        <div className="flex flex-col items-center w-100p mb-4 p-10 bg-black21 text-white">
+            <Title text="About myself." color="text-orange"/>
+            <div className="text-2xl w-60p mb-10">
+                I'm getting my Bachelor's degree in Computer Science at University of Lille in France. <br/>
+                I love <BoldText text="Mathematics"/> and <BoldText text="Physics"/> since childhood and then get interested into <BoldText text="Computer Science"/>. <br/>
+                I'm currently interested in <BoldText text="Machine Learning"/>.       
+            </div>
+            <div className="flex justify-around w-80p">
+                <AboutInfo/>
+                <AboutSkill/>
+            </div>
         </div>
     );
 };
