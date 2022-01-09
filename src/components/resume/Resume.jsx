@@ -4,7 +4,7 @@ import BoldText from "../util/BoldText";
 
 const Resume = () => {
     return (
-        <div className="flex flex-col items-center p-10 w-100p bg-black21">
+        <div className="flex flex-col items-center p-10 w-100p bg-black21" id="resume">
             <Title text="Resume." color="text-orange"/>
             <div className="flex justify-center w-100p">
                 <div className="flex flex-col justify-center">

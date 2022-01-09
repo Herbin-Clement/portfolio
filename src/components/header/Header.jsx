@@ -4,11 +4,11 @@ const Header = () => {
     return (
         <div className="absolute flex justify-center top-0 w-100p text-white">
             <div className="flex justify-around w-35p text-xl">
-            <HeaderContent text="Home" current={true}/>
-            <HeaderContent text="About" />
-            <HeaderContent text="Projects" />
-            <HeaderContent text="Resume" />
-            <HeaderContent text="Contact" />
+            <HeaderContent text="Home" current={true} id="home"/>
+            <HeaderContent text="About" id="about"/>
+            <HeaderContent text="Projects" id="project"/>
+            <HeaderContent text="Resume" id="resume"/>
+            <HeaderContent text="Contact" id="contact"/>
             </div>
         </div>
     );
