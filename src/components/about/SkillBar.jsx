@@ -1,5 +1,3 @@
-import BoldText from "../util/BoldText";
-
 const SkillBar = ({language, pourcentage}) => {
     return(
         <>
