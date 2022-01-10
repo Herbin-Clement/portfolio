@@ -6,7 +6,7 @@ import "./resume.css";
 const Resume = () => {
     return (
         <div className="resume" id="resume">
-            <Title text="Resume." color="text-orange"/>
+            <Title text="Resume." color="#f39c12"/>
             <div className="resume2">
                 <div className="resumeContent">
                     <ResumeItem place="University of Lille" date="2019 - 2022">

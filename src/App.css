@@ -2,6 +2,7 @@ html, body, .App {
   width: 100%;
   margin: 0;
   padding: 0;
+  font-weight: 400;
 }
 
 .App {
@@ -11,7 +12,15 @@ html, body, .App {
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 10vh;
   background-color: #121212;
+  color: #808080;
+}
+
+span {
+  font-weight: 500;
 }

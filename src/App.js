@@ -16,7 +16,7 @@ function App() {
       <Project/>
       <Resume/>
       <Contact/>
-      <div className="footer"></div>
+      <div className="footer">Copyright © 2021-2022</div>
     </div>
   );
 }

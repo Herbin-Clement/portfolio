@@ -3,7 +3,7 @@ const SkillBar = ({language, pourcentage}) => {
         <>
             <div className="aboutSkillLanguage">{language}</div>
             <div className="bar">
-                <div className={`w-${pourcentage}p progress`}></div>
+                <div className="progress" style={{width: `${pourcentage}%`}}></div>
             </div>
         </>
     );

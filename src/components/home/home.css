@@ -9,6 +9,7 @@
     background-image: url("img/plage.jpg");
     background-size: cover;
     color: white;
+    padding: 10px;
 }
 
 .name {
@@ -19,8 +20,4 @@
 
 .description {
     font-size: x-large;
-}
-
-span {
-    font-weight: 500;
 }

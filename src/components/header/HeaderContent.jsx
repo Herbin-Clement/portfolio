@@ -11,7 +11,7 @@ const HeaderContent = ({text, current, id}) => {
         })
     }
     return(
-        <div class={`heanderContent ${current ? "text-orange" : ""}`} onClick={() => handleClick()}>
+        <div class={`headerContent ${current ? "text-orange" : ""}`} onClick={() => handleClick()}>
             {text}
         </div>
     );

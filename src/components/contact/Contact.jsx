@@ -9,7 +9,7 @@ const Contact = () => {
     return (
         <div className="contact" id="contact">
             <Element name="contact"/>
-            <Title text="Contact." color="text-orange"/>
+            <Title text="Contact." color="#f39c12"/>
             <div className="contactContent">
                 <ContactItem title="Place" text="Lille"/>
                 <ContactItem title="E-Mail" text="clement.herbin@hotmail.com"/>
