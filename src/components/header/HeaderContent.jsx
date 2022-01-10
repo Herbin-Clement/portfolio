@@ -1,4 +1,5 @@
 import { scroller } from "react-scroll/modules";
+import './header.css'
 
 const HeaderContent = ({text, current, id}) => {
 
@@ -10,7 +11,7 @@ const HeaderContent = ({text, current, id}) => {
         })
     }
     return(
-        <div class={`cursor-pointer ${current ? "text-orange" : ""}`} onClick={() => handleClick()}>
+        <div class={`heanderContent ${current ? "text-orange" : ""}`} onClick={() => handleClick()}>
             {text}
         </div>
     );

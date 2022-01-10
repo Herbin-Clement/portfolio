@@ -1,0 +1,46 @@
+.resume {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    background-color: #212121;
+}
+
+.resume2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.resumeContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resumeItem {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.resumeItemContent {
+    display: flex;
+    margin-bottom: 5px;
+    font-size: x-large;
+}
+
+.resumeItemPlace {
+    padding-right: 15px;
+    border-right: 1px solid #f39c12;
+}
+
+.resumeItemDate {
+    padding-left: 15px;
+}
+
+.resumeTitle {
+    margin-bottom: 4px;
+    font-size: xx-large;
+}

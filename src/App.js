@@ -9,14 +9,14 @@ import Contact from './components/contact/Contact';
 
 function App() {
   return (
-    <div className="w-full h-1/10 bg-black ">
+    <div className="App">
       <Header/>
       <Home/>
       <About/>
       <Project/>
       <Resume/>
       <Contact/>
-      <div className="bg-black12 w-100p h-10v"></div>
+      <div className="footer"></div>
     </div>
   );
 }

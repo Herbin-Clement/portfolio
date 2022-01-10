@@ -1,9 +1,11 @@
 import AboutInfoItem from './AboutInfoItem';
 
+import './about.css';
+
 const AboutInfo = () => {
     return(
-        <div className="w-35p">
-            <div className="flex justify-center mb-2 text-3xl text-orange font-medium">Profile</div>
+        <div className="aboutInfo">
+            <div className="aboutTitle">Profile</div>
             <AboutInfoItem title="Age" content={[20]}/>
             <AboutInfoItem title="E-Mail" content={["clement.herbin@hotmail.com"]}/>
             <AboutInfoItem title="City" content={["Lille"]}/>

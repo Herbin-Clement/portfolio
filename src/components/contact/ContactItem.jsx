@@ -1,3 +1,5 @@
+import "./contact.css";
+
 const ContactItem = ({title, text, link}) => {
     
     const handleClick = () => {
@@ -7,9 +9,9 @@ const ContactItem = ({title, text, link}) => {
     }
 
     return(
-        <div className="flex flex-col items-center w-20p h-80p">
-            <div className="flex justify-center mb-5 text-orange text-3xl">{title}</div>
-            <div className={`text-black80 font-medium ${link ? "cursor-pointer" : ""}`} onClick={() => handleClick()}>{text}</div>
+        <div className="contactItem">
+            <div className="contactItemTitle">{title}</div>
+            <div className={`contactItemContent ${link ? "cursor-pointer" : ""}`} onClick={() => handleClick()}>{text}</div>
         </div>
     );
 };

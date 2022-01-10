@@ -1,6 +1,8 @@
+import './title.css';
+
 const Title = ({text, color}) => {
     return(
-        <div className={`flex justify-center w-100p mb-10 text-5xl ${color ? color : "text-white"} font-semibold`}>
+        <div className={`title ${color ? color : "text-white"} font-semibold`}>
             {text}
         </div>
     );

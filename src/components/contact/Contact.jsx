@@ -1,14 +1,16 @@
 import { Element } from 'react-scroll/modules';
 
 import Title from '../util/Title';
-import ContactItem from './ContactItem'
+import ContactItem from './ContactItem';
+
+import "./contact.css";
 
 const Contact = () => {
     return (
-        <div className="flex flex-col items-center w-100p h-30v p-10 bg-black15" id="contact">
+        <div className="contact" id="contact">
             <Element name="contact"/>
             <Title text="Contact." color="text-orange"/>
-            <div className="flex justify-evenly w-80p h-100p">
+            <div className="contactContent">
                 <ContactItem title="Place" text="Lille"/>
                 <ContactItem title="E-Mail" text="clement.herbin@hotmail.com"/>
                 <ContactItem title="LinkedIn" text="LinkedIn Profile" link="https://www.linkedin.com/in/cl%C3%A9ment-herbin/"/>
