@@ -5,7 +5,7 @@ import './home.css';
 
 const Home = () => {
 
-    const props = useSpring({to: {opacity: 1}, from: {opacity: 0}, delay: 1000, duration: 2500, config: {duration: 1000} });
+    const props = useSpring({to: {opacity: 1}, from: {opacity: 0}, delay: 1000, config: {duration: 1000} });
 
     return (
         <div className="home" id="home">
