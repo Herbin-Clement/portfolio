@@ -1,18 +1,31 @@
 import Carousel from 'react-elastic-carousel';
-import Title from "../util/Title";
+
 import ProjectCard from "./ProjectCard";
+import Title from "../util/Title";
 
 import "./project.css";
 
 const Project = () => {
     return (
         <div className="project" id="project">
-            <Title text="Projects." color="text-orange"/>
+            <Title text="Projects." color="#171717"/>
             <div className="projectContent">
-                <Carousel>
-                    <ProjectCard title="Fluid Simulation" language="C++" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
-                    <ProjectCard title="Port Folio" language="React JS - Tailwind" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
-                    <ProjectCard title="Board Game" language="Java" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
+                <Carousel itemsToShow={3}>
+                    <ProjectCard title="Fluid Simulation" language="C++" 
+                        description="Made a Fluid simulation using C++ and SFML"
+                        github="https://github.com/Herbin-Clement/Fluid-Simulation"/>
+                    <ProjectCard title="Port Folio" language="React JS" 
+                        description="Made my PortFolio using ReactJS"
+                        github="https://github.com/Herbin-Clement/portfolio"/>
+                    <ProjectCard title="Board Game" language="Java" 
+                        description="Made a Board game in groups of 3 using Java"
+                        github="https://github.com/Herbin-Clement/board-game"/>
+                    <ProjectCard title="Graph Visualisation" language="ReactJS" 
+                        description="Made a graph visualisation in ReactJS"
+                        github="https://github.com/Herbin-Clement/graph-visu"/>
+                    <ProjectCard title="Game of Life" language="HTML - CSS - JS" 
+                        description="Made a game of life using html, css and js"
+                        github="https://github.com/Herbin-Clement/GameOfLife"/>
                 </Carousel>
             </div>
         </div>
@@ -20,3 +33,4 @@ const Project = () => {
 };
 
 export default Project;
+

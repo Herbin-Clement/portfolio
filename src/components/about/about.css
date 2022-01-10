@@ -32,7 +32,7 @@
     justify-content: center;
     margin-bottom: 5px;
     font-size: xx-large;
-    color: #f39c12;
+    color: #FFB614;
     font-weight: 500;
 }
 
@@ -63,12 +63,12 @@
     width: 100%;
     height: 8px;
     margin-bottom: 10px;
-    background-color: #303030;
+    background-color: #20232F;
     border-radius: 2px;
 }
 
 .progress {
     height: 100%;
     border-radius: 2px;
-    background-color: white;
+    background-color: #373C4C;
 }
