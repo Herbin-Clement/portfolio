@@ -13,7 +13,7 @@ const About = () => {
             <div className="text-2xl w-60p mb-10">
                 I'm getting my Bachelor's degree in Computer Science at University of Lille in France. <br/>
                 I love <BoldText text="Mathematics"/> and <BoldText text="Physics"/> since childhood and then get interested into <BoldText text="Computer Science"/>. <br/>
-                I'm currently interested in <BoldText text="Machine Learning"/>.       
+                I'm currently interested in <BoldText text="Artificial Intelligence"/>.       
             </div>
             <div className="flex justify-around w-80p">
                 <AboutInfo/>

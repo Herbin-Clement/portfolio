@@ -11,7 +11,7 @@ const Contact = () => {
             <div className="flex justify-evenly w-80p h-100p">
                 <ContactItem title="Place" text="Lille"/>
                 <ContactItem title="E-Mail" text="clement.herbin@hotmail.com"/>
-                <ContactItem title="LinkedIn" text="LinkedIn Profile"/>
+                <ContactItem title="LinkedIn" text="LinkedIn Profile" link="https://www.linkedin.com/in/cl%C3%A9ment-herbin/"/>
             </div>
         </div>
     );
